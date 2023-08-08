@@ -1,0 +1,339 @@
+body{
+    background-color:#F5F5DC;
+    color: white;
+    font-size:12px;
+    font-family: arial;
+}
+
+#reserva{
+    font-size: 4;
+    font-family: candara;
+    margin: 0 auto;
+    width: 50%;
+    background-color: #F5F5DC;
+    width: 800;
+    height: 1000;
+    padding: 30;
+}
+
+/*titulo da pagina*/
+.titulopag{
+    font-size: 30px;
+    font-family: Avantgarde;
+    color: red;
+    border-bottom: 1px solid #FFFFFF;
+
+}
+.page-header1{
+    width: 100%;
+
+}
+/* titulos para as paginas */
+.title-page{
+    padding: 10px;
+    color: RED;
+    text-align: center;
+    font-family: "Quattrocento";
+    font-size: 36px;
+    line-height: 1.1em;
+    border-style: double;
+    border-color: white;
+}
+.tituloterceiro{
+    padding: 10px;
+    color: RED;
+    text-align: center;
+    font-family: "Quattrocento";
+    font-size: 36px;
+    line-height: 1.1em;
+    border-bottom:3px solid #556B2F;
+}
+button {
+    background-color: green;
+    background-repeat:no-repeat;
+    border: none;
+    border-radius: 69px;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    margin: 0 15px;
+    font-family: candara;
+    padding: 20;
+}
+
+.title-pagegastro{
+    padding: 10px;
+    color:red;
+    text-align: center;
+    font-family: "Quattrocento";
+    font-size: 36px;
+    line-height: 1.1em;
+    border-bottom: 4px solid #556B2F;
+    /* deixar centralizadp */
+    display: inline-block;
+
+}
+/*index*/
+.centroindex{
+    align-items: center;
+}
+.caixaindex {
+    background-color: red;
+    color: white;
+    height: 50px;
+    padding: 50px;
+    display: inline-block;
+    align-items: center;
+}
+
+.caixaindex p {
+    font-family: Avantgarde;
+    font-size: 12px;
+    color: white;
+    bottom: 0;
+    width: 100%;
+}
+
+/*cabeçalho*/
+header{
+    background-color:white;
+    height:200px;
+    padding: 10px;
+}
+
+#logo{
+    text-align: center;
+}
+/* menu */
+#menu ul {  /* dando estilo */
+    padding:0px;
+    margin:0px;
+    background-color:#556B2F;
+    list-style:none;
+    text-align: center;
+
+
+}
+
+#menu ul li { display: inline; } /*deixando na horizontal */
+
+#menu ul li a {
+    padding: 15px 35px; /*deixando mais longe */
+    display: inline-block;
+
+
+    /* visual do link */
+    background-color:#556B2F;
+    color: white;
+    text-decoration: none;
+    border-bottom:3px solid #556B2F  ;
+
+
+}
+
+#menu ul li a:hover { /*quando o usuário passar o mouse*/
+    background-color:	#B22222;
+    color: white;
+    border-bottom:3px solid #B22222;
+}
+
+#mapa {
+    height:400px;
+    width:400px;
+}
+/*rodapé*/
+footer{
+    height: 200px;
+    text-align: left;
+    background-color: white;
+    font-size:14px;
+    color: red;
+    font-family: Avantgarde;
+
+
+}
+
+#rodape {
+    margin:0 auto; /*Centraliza a div pai*/
+    display: flex;
+    width:900px; /*Tamanho da div pai*/
+}
+.coluna {
+    display:inline; /*Evita o bug da margem duplicada*/
+    float:left; /*Flutuando à esquerda*/
+    width:300px;
+}
+
+/*body html contato */
+#bodycont {
+    margin:0 auto; /*Centraliza a div pai*/
+    width:900px; /*Tamanho da div pai*/
+    color: black;
+    font-size: 15px;
+    column-count: 2;
+    column-gap: 70px;
+
+
+}
+.colunacont {
+    display:inline; /*Evita o bug da margem duplicada*/
+    float:left; /*Flutuando à esquerda*/
+    width:300px;
+    background-color: white;
+    padding: 15px;
+    column-gap: 50px;
+}
+
+.colunacont2{
+    display:inline; /*Evita o bug da margem duplicada*/
+    float:left; /*Flutuando à esquerda*/
+    width:450px;
+    color: black;
+    padding-right:  10px;
+    padding: 10px;
+
+}
+
+.texto{
+    font-family: Avantgarde;
+    font-size: 18px;
+    color: #556B2F;
+}
+
+/*banner index*/
+/* imagem responsiva (muda o tamanho no celular/pc) */
+.gallery-container {
+    width: 90%;
+    position: relative;
+    margin: 0 5%;
+    padding: 2px;
+    display: flex;
+
+}
+@media (min-width: 480px) { /*tamanho para o pc */
+    .gallery-container {
+        width: 480px; /* tamanho das fotos */
+        margin: auto;
+    }
+}
+
+
+.mySlides { /* aparece só a da vez, as outras não*/
+    display: inline;
+
+}
+
+
+.imgslide {
+    width: 100%;
+
+}
+
+/* número que aparece no canto superior informando a quantidade de fotos */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+@media (max-width: 768px) {
+    .numbertext {
+        top: 15px;
+    }
+}
+#bodysobre {
+    margin:0 auto; 
+    width: 900px; 
+    color: #556B2F;
+    font-size: 15px;
+    column-count: 2;
+    column-gap: 100px;
+    padding: 10px;
+    font-family: helvetica;
+    background-color: #DCDCDC;
+
+}
+
+#bodysobre1 {   
+    margin:0 auto; /*Centraliza a div pai*/
+    width:900px; /*Tamanho da div pai*/
+    color: #556B2F;
+    font-size: 15px;
+    column-count: 2;
+    column-gap: 100px;
+    padding: 10px;
+    font-family: helvetica;
+
+
+}
+
+.colunasobre {
+    display:inline; 
+    float:left; 
+    width:300px;
+    padding: 16px;
+    column-gap: 100px;
+    color:#556B2F;
+    font-size: 24px;
+
+}
+
+.colunasobre2{
+    display:inline; 
+    float:right; 
+    width:300px;
+    color: black;
+    padding-right:  10px;
+    padding: 10px;}
+
+/*serve para fazer a animação (aumenta e diminui a opacidade)*/
+.fade{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+#imagens{
+    margin:0 auto; /*Centraliza a div pai*/
+    width:900px; /*Tamanho da div pai*/
+    color: #556B2F;
+    font-size: 15px;
+    column-count: 2;
+    font-family: helvetica;
+
+}
+#imagenscolunaindex{
+    margin:0 auto; /*Centraliza a div pai*/
+    width:590px; /*Tamanho da div pai*/
+    color: #556B2F;
+    font-size: 15px;
+    column-count: 2;
+    font-family: helvetica;
+}
+.img2{
+    display: inline; /*Evita o bug da margem duplicada*/
+    float:left; /*Flutuando à esquerda*/
+    color: #556B2F;
+    font-family: Avantgarde;
+    font-size: 20px;
+    background-color: white;
+    width:295px;
+    height: 212px;
+}
+.imagem2{
+   
+    border-style: dotted;
+    border-bottom: 5px solid white;
+}
+@-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+@keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+}
+
+
