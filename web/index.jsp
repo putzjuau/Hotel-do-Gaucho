@@ -1,8 +1,4 @@
-<%-- 
-    Document   : home.jsp
-    Created on : 20/01/2022, 12:34:42
-    Author     : jaoze
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <html>
